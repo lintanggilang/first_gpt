@@ -17,3 +17,5 @@ with st.form('my_form'):
         st.warning('Please enter your OpenAI API key!', icon='⚠')
     if submitted and openai_api_key.startswith('sk-'):
         generate_response(text)
+
+st.markdown("Visit my website at [www.lintanggilang.site](https://www.lintanggilang.site)")
