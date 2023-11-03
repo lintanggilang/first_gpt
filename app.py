@@ -2,7 +2,7 @@ import streamlit as st
 from langchain.llms import OpenAI
 
 st.title('🦜🔗 Quickstart App GPT 3.5')
-st.title('by Lintang Gilang Pratama')
+st.write('by Lintang Gilang Pratama')
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
